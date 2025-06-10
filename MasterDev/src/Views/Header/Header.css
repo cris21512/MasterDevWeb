@@ -1,0 +1,79 @@
+.Header-style{
+    width: 100%;
+    min-height: 100vh;
+    background: #020202;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Center-header{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: 0;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    gap: 6rem;
+}
+
+.Buttons-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+.text-and-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Header-title{
+    font-family: 'Poppins', sans-serif;
+    line-height: normal;
+    font-size: 1.7rem;
+    font-weight: 400;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    margin: 0;
+    width: 540px;
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.imagen-master{
+    width: auto;
+    height: 420px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.custom-class{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+

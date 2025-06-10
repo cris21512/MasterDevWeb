@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand&display=swap');
+
+#root {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    line-height: normal;
+    font-weight: 400;
+    margin: 0;
+  background: linear-gradient(
+    90deg,
+    white 0%,
+    white 10%,
+    #00eaff 20%,
+    white 85%,
+    white 90%
+  );
+  background-size: 100% 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+    position: relative;
+    z-index: 3;
+    padding: 0;
+    text-shadow: 0 0 10px rgba(189, 189, 189, 0.849);
+    margin-bottom: 1rem;
+}
+
+span{
+  font-family: 'Edu SA Hand', cursive;
+  color: #00eaff;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-scroll] {
+  will-change: transform;
+}
