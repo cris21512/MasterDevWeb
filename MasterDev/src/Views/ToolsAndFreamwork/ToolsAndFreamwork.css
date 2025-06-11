@@ -1,0 +1,19 @@
+.ToolsAndFreamwork-style{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #020202;
+}
+
+.Freamwork-title{
+    font-family: 'Poppins', sans-serif;
+    line-height: normal;
+    font-size: 3rem;
+    font-weight: 400;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+}

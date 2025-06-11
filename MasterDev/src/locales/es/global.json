@@ -17,6 +17,25 @@
         "menext3": "Actualmente estoy enfocado en mejorar mis habilidades, ampliar mis conocimientos y adquirir más experiencia práctica en la industria tecnológica.",
         "span3": "¡Soy MasterDev… y este es mi sitio web!"
     },
+    "ToolsAndFreamworks": {
+        "Title": "Habilidades y Herramientas"
+    },
+    "Projects": {
+        "Title": "Proyectos destacados",
+        "Description": "Descripción",
+        "Rol": "Mi rol",
+        "Cardinfo1": "Desarrollé un sitio web para WYK Homes,",
+        "spancard1": " una empresa de construcción de viviendas con sede en Estados Unidos,",
+        "Cardinfo2": " especializada en",
+        "spancard2": " Estructuración, Techado, Remodelación, Revestimiento y Paneles de Yeso",
+        "Cardinfo3": ". El objetivo principal era mejorar la visibilidad de sus servicios y facilitar que",
+        "spancard3": " clientes potenciales",
+        "Cardinfo4": " se pusieran en contacto.",
+        "Roleinfo1": "Fui completamente responsable del desarrollo del sitio web ",
+        "Roleinfo2": ". Trabajé directamente con el cliente para entender sus necesidades y entregar una",
+        "Spanrole1": " (frontend, backend, UX y diseño)",
+        "Spanrole2": " solución funcional y visualmente atractiva"
+    },
     "Buttons": {
         "CV": "Descargar mi CV",
         "Github": "Mi Github",

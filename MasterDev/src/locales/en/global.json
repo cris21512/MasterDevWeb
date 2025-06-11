@@ -17,6 +17,25 @@
         "menext3": "I'm currently focused on improving my skills, expanding my knowledge, and gaining more hands on experience in the tech industry.",
         "span3": " I'm MasterDev… and this is my Website!"
     },
+    "ToolsAndFreamworks": {
+        "Title": "Skills and Tools"
+    },
+    "Projects": {
+        "Title": "Featured Projects",
+        "Description": "Description:",
+        "Rol": "My role:",
+        "Cardinfo1": "I developed a website for WYK Homes,",
+        "spancard1": " a home construction company based in the United States,",
+        "Cardinfo2": " specialized in",
+        "spancard2": " Framing, Roofing, Remodeling, Siding, and Drywal",
+        "Cardinfo3": ". The main goal was to improve the visibility of their services and make it easier for",
+        "spancard3": " potential clients.",
+        "Cardinfo4": " to get in touch.",
+        "Roleinfo1": "I was fully responsible for the entire website development  ",
+        "Roleinfo2": ". I worked directly with the client to understand their needs and deliver a",
+        "Spanrole1": " (frontend, backend, UX, and design)",
+        "Spanrole2": " functional and visually appealing solution"
+    },
     "Buttons": {
         "CV": "Download my CV",
         "Github": "My Github",
