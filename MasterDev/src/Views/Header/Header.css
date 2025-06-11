@@ -53,6 +53,16 @@
     margin-bottom: 1rem;
 }
 
+.Header-subtitle{
+    font-size: 1rem;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    width: 480px;
+    max-width: 100%;
+    padding: 0;
+}
+
 .imagen-master{
     width: auto;
     height: 420px;
@@ -76,3 +86,110 @@
     padding: 0;
 }
 
+@media (min-width: 380px) and (max-width: 767px) {
+    .Center-header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        gap: 3rem;
+        padding: 5rem;
+    }
+
+    .Header-title {
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    .Header-subtitle {
+        font-size: 0.8rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Buttons-header {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagen-master {
+        height: 200px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .Center-header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        gap: 3rem;
+    }
+
+    .Header-title {
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    .Header-subtitle {
+        font-size: 0.9rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Buttons-header {
+        flex-direction: row;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        width: 70%;
+    }
+
+    .imagen-master {
+        height: 300px;
+    }
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .Center-header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        gap: 3rem;
+    }
+
+    .Header-title {
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .Header-subtitle {
+        font-size: 0.9rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Buttons-header {
+        display: flex;
+        flex-direction: row;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        width: 70%;
+    }
+
+    .imagen-master {
+        height: 350px;
+    }
+}

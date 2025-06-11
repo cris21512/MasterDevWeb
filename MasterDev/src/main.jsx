@@ -15,7 +15,7 @@ import global_en from './locales/en/global.json'
 
 i18next.init({
   interpolation: {escapeValue: false},
-  lng: "en", // default language
+  lng: "es", // default language
   resources: {
     es: {
       global: global_es,

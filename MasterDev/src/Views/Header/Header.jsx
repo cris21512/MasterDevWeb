@@ -35,7 +35,7 @@ const Header = () => {
         <div className='text-and-buttons'>
           <section className='text-header'>
             <h1 className='Header-title'>{t("Header.Title")}</h1>
-            <div>
+            <div className='Header-subtitle'>
               <GradientText
                 colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
                 animationSpeed={3}

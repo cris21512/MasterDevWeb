@@ -1,7 +1,21 @@
 {
     "Header": {
         "Title": "¡Hola! soy Cristopher Fuentes, Ingeniero de Software especializado en Desarrollador Web",
-        "Subtitle": "Disponible para roles freelance o a tiempo completo, links de preferencia ↓ "
+        "Subtitle": "Disponible para roles freelance o a tiempo completo, mis links ↓ "
+    },
+    "About": {
+        "Title": "Sobre mí",
+        "Hi": "Tengo 18 años y soy un ",
+        "span1": "Desarrollador de Software especializado en Desarrollo Web Frontend.",
+        "menext": "Descubrí la programación en 2023 a través de un breve tutorial de Kotlin, pero fue en 2024 cuando realmente comencé mi viaje en la construcción de aplicaciones Web.",
+        "menext2": " Desde entonces, he adquirido experiencia a través de proyectos personales y colaborando con ",
+        "span2": "empresas con sede en Estados Unidos",
+        "includ": " incluyendo: ",
+        "ul1": "WYK Homes",
+        "ul2": "Interphase",
+        "ul3": "El sitio web oficial de Chito & Cris",
+        "menext3": "Actualmente estoy enfocado en mejorar mis habilidades, ampliar mis conocimientos y adquirir más experiencia práctica en la industria tecnológica.",
+        "span3": "¡Soy MasterDev… y este es mi sitio web!"
     },
     "Buttons": {
         "CV": "Descargar mi CV",

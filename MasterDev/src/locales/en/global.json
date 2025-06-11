@@ -3,6 +3,20 @@
         "Title": "Hi, I'm Cristopher Fuentes, a Software Engineer specialized in Web Developer",
         "Subtitle": "• Available for freelance or full time, preference links ↓ "
     },
+    "About":{
+        "Title": "About Me",
+        "Hi": "I'm 18 years old and a ",
+        "span1": "software developer specialized in frontend web development.",
+        "menext": "I discovered programming in 2023 through a short Kotlin tutorial, but it was in 2024 when I truly began my journey into building web applications.",
+        "menext2": " Since then, I've gained experience through personal projects and by collaborating with ",
+        "span2" : "companies based in the United States",
+        "includ": " including: ",
+        "ul1": "WYK Homes",
+        "ul2": "Interphase",
+        "ul3": "The official website Chito & Cris",
+        "menext3": "I'm currently focused on improving my skills, expanding my knowledge, and gaining more hands on experience in the tech industry.",
+        "span3": " I'm MasterDev… and this is my Website!"
+    },
     "Buttons": {
         "CV": "Download my CV",
         "Github": "My Github",
