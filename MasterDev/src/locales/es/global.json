@@ -2,5 +2,11 @@
     "Header": {
         "Title": "¡Hola! soy Cristopher Fuentes, Ingeniero de Software especializado en Desarrollador Web",
         "Subtitle": "Soy ingeniero de software y desarrollador web"
+    },
+    "Buttons": {
+        "CV": "Descargar mi CV",
+        "Github": "Mi Github",
+        "Linkedin": "Mi Linkedin",
+        "Gmail": "Mi Correo"
     }
 }
