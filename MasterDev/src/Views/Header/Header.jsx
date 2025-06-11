@@ -5,7 +5,7 @@ import GradientText from '../../TextAnimations/GradientText/GradientText'
 import Particles from '../../Backgrounds/Particles/Particles'
 import MasterDev from '../../assets/images/MasterDev.png'
 import CVButton from '../../Components/Buttons/CVButton'
-import CV from '../../assets/icons/file.svg'
+import ButtonsMedia from '../../Components/Buttons/ButtonsMedia'
 
 const Header = () => {
   const [t, i18n] = useTranslation("global");
@@ -47,7 +47,8 @@ const Header = () => {
             </div>
           </section>
           <div className='Buttons-header'>
-            <CVButton />
+            <CVButton/>
+            <ButtonsMedia />
           </div>
         </div>
         <img src={MasterDev} alt="MasterDev" className='imagen-master' />
