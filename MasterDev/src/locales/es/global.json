@@ -22,8 +22,8 @@
     },
     "Projects": {
         "Title": "Proyectos destacados",
-        "Description": "Descripción",
-        "Rol": "Mi rol",
+        "Description": "Descripción:",
+        "Rol": "Mi rol:",
         "Cardinfo1": "Desarrollé un sitio web para WYK Homes,",
         "spancard1": " una empresa de construcción de viviendas con sede en Estados Unidos,",
         "Cardinfo2": " especializada en",
@@ -47,12 +47,22 @@
         "Roleinfo1": "Estuve a cargo de construir todo el frontend, basado en el diseño que proporcionaron. También implementé parte del backend, creando una solución ",
         "Roleinfo2": ". especialmente optimizada para su audiencia, que visita principalmente el sitio desde sus",
         "Spanrole1": "funcional, rápida y altamente receptiva",
-        "Spanrole2": "dispositivos móviles"
+        "Spanrole2": " dispositivos móviles"
+    },
+    "Certificados": {
+        "Title": "Certificados"
+    },
+    "Navbar": {
+        "About": "Sobre mí",
+        "Projects": "Proyectos",
+        "Contact": "Contacto"
     },
     "Buttons": {
         "CV": "Descargar mi CV",
         "Github": "Mi Github",
         "Linkedin": "Mi Linkedin",
-        "Gmail": "Mi Correo"
+        "Gmail": "Mi Correo",
+        "ViewGit": "Ver en Github",
+        "View": "Ver Proyecto"
     }
 }

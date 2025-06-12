@@ -49,10 +49,20 @@
         "Spanrole1": " fast, and highly responsive solution",
         "Spanrole2": " mobile devices"
     },
+    "Certificados":{
+        "Title": "Certificates"
+    },
+    "Navbar":{
+        "About": "About",
+        "Projects": "Projects",
+        "Contact": "Contact"
+    },
     "Buttons": {
         "CV": "Download my CV",
         "Github": "My Github",
         "Linkedin": "My Linkedin",
-        "Gmail": "My Gmail"
+        "Gmail": "My Gmail",
+        "ViewGit": "View on Github",
+        "View": "View Project"
     }
 }

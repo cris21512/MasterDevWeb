@@ -6,12 +6,14 @@ import Particles from '../../Backgrounds/Particles/Particles'
 import MasterDev from '../../assets/images/MasterDev.png'
 import CVButton from '../../Components/Buttons/CVButton'
 import ButtonsMedia from '../../Components/Buttons/ButtonsMedia'
+import Navbar from '../Navbar/Navbar'
 
 const Header = () => {
   const [t, i18n] = useTranslation("global");
 
   return (
     <div className='Header-style'>
+      <Navbar />
       <div
         style={{
           width: '100%',
