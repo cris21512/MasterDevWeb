@@ -5,6 +5,16 @@ import Ballpit from '../../Backgrounds/Ballpit/Ballpit';
 import logi from '../../assets/images/logo.png';
 
 const Footer = () => {
+    const [t, i18n] = useTranslation("global");
+  const copiarAlPortapapeles = async () => {
+    try {
+      await navigator.clipboard.writeText('cristopherfm21.5@gmail.com');
+      alert('¡Correo copiado al portapapeles!');
+    } catch (err) {
+      console.error('Error al copiar: ', err);
+    }
+  };
+
     return (
         <div className="Footer-style">
             <div
@@ -37,7 +47,7 @@ const Footer = () => {
             </div>
             <div className="growl">
                 <h1 className="title-footer">Contact</h1>
-                <span className="h2">cristopherfm21.5@gmail.com</span>
+                <span className="h2" onClick={copiarAlPortapapeles}>cristopherfm21.5@gmail.com <br />Click para copiar</span>
                 <span className="h2">+502 3955 9554</span>
                 <span className="h2">• Facebook</span>
             </div>

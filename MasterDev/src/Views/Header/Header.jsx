@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Header.css'
 import { useTranslation } from 'react-i18next'
 import GradientText from '../../TextAnimations/GradientText/GradientText'
@@ -7,9 +7,18 @@ import MasterDev from '../../assets/images/MasterDev.png'
 import CVButton from '../../Components/Buttons/CVButton'
 import ButtonsMedia from '../../Components/Buttons/ButtonsMedia'
 import Navbar from '../Navbar/Navbar'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Header = () => {
   const [t, i18n] = useTranslation("global");
+
+    useEffect(() => {
+        AOS.init({
+        duration: 1000,
+        once: true,
+        });
+    }, []);
 
   return (
     <div className='Header-style'>

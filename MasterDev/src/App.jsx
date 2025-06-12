@@ -6,10 +6,12 @@ import ToolsAndFramework from './Views/ToolsAndFreamwork/ToolsAndFreamwork'
 import Projects from './Views/Projects/Projects'
 import Certificados from './Views/Certificados/Certificados'
 import Footer from './Views/Footer/Footer'
+import Preloader from './Components/Preloader/Preloader'
 
 function App() {
   return (
     <>
+    <Preloader />
     <Header />
     <About />
     <ToolsAndFramework />
