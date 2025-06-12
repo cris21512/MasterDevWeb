@@ -36,6 +36,19 @@
         "Spanrole1": " (frontend, backend, UX y diseño)",
         "Spanrole2": " solución funcional y visualmente atractiva"
     },
+    "Cardinfo": {
+        "Cardinfo1": "Desarrollé un sitio web moderno para un duo de ",
+        "spancard1": "creadores de contenido de TikTok",
+        "Cardinfo2": " enfocados en comida y recetas. Su objetivo era ",
+        "spancard2": "mostrar su cocina",
+        "Cardinfo3": ", aumentar la participación y facilitar que sus seguidores se pusieran en contacto."
+    },
+    "Roleinfo": {
+        "Roleinfo1": "Estuve a cargo de construir todo el frontend, basado en el diseño que proporcionaron. También implementé parte del backend, creando una solución ",
+        "Roleinfo2": ". especialmente optimizada para su audiencia, que visita principalmente el sitio desde sus",
+        "Spanrole1": "funcional, rápida y altamente receptiva",
+        "Spanrole2": "dispositivos móviles"
+    },
     "Buttons": {
         "CV": "Descargar mi CV",
         "Github": "Mi Github",

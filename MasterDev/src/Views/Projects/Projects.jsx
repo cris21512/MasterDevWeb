@@ -43,7 +43,7 @@ const Projects = () => {
                     </a>
                     </div>
                 </SpotlightCard>
-                <SpotlightCard className="box-style" spotlightColor="rgba(9, 180, 247, 0.62)">
+                <SpotlightCard className="box-style" spotlightColor="rgba(255, 255, 255, 0.73)">
                     <article>
                         <img src={ChitoyCris} alt="WYKHomes" className="image-card" />
                         <img src={CC} alt="House" />
@@ -51,22 +51,20 @@ const Projects = () => {
                     <h1 className="title-card-project">Chito & Cris</h1>
                     <p className="text-project">
                         <span>{t("Projects.Description")}</span> <br />
-                        {t("Projects.Cardinfo1")}
-                        <span>{t("Projects.spancard1")} </span>
-                        {t("Projects.Cardinfo2")}
-                        <span>{t("Projects.spancard2")}</span>
-                        {t("Projects.Cardinfo3")}
-                        <span>{t("Projects.spancard3")}</span>
-                        {t("Projects.Cardinfo4")} <br />
+                        {t("Cardinfo.Cardinfo1")}
+                        <span>{t("Cardinfo.spancard1")} </span>
+                        {t("Cardinfo.Cardinfo2")}
+                        <span>{t("Cardinfo.spancard2")}</span>
+                        {t("Cardinfo.Cardinfo3")} <br />
                         <span>{t("Projects.Rol")} </span> <br />
-                        {t("Projects.Roleinfo1")}
-                        <span>{t("Projects.Spanrole1")}</span>
-                        {t("Projects.Roleinfo2")}
-                        <span>{t("Projects.Spanrole2")}</span>.
+                        {t("Roleinfo.Roleinfo1")}
+                        <span>{t("Roleinfo.Spanrole1")}</span>
+                        {t("Roleinfo.Roleinfo2")}
+                        <span>{t("Roleinfo.Spanrole2")}</span>.
                     </p>
                     <div className="buttons-project">
-                        <a href="https://wyk-homes.vercel.app/" target='_blank' rel='noopener noreferrer'><ViewAll/></a>
-                        <a href="https://github.com/cris21512/WYK-Homes" target='_blank' rel='noopener noreferrer' ><GithubButton />
+                        <a href="https://chito-y-cris.vercel.app/" target='_blank' rel='noopener noreferrer'> <ViewAll/></a>
+                        <a href="https://github.com/cris21512/Chito-Y-Cris" target='_blank' rel='noopener noreferrer' ><GithubButton />
                     </a>
                     </div>
                 </SpotlightCard>
