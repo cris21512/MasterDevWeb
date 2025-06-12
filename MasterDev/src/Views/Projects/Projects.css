@@ -120,4 +120,39 @@ article:hover img:last-child{
     transform: translateY(10%);
 }
 
+@media (min-width: 380px) and (max-width: 767px) {
+    .Projects-style{
+        padding-top: 5rem;
+        padding: 1rem;
+    }
+
+    .Center-projects{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .box-style{
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .buttons-project{
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .title-project{
+        font-size: 2rem;
+    }
+
+    .text-project{
+        font-size: 1rem;
+    }
+    
+}
 

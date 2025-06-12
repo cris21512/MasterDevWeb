@@ -37,3 +37,16 @@
     font-size: 3rem;
     margin-bottom: 2rem;
 }
+
+@media (min-width: 380px) and (max-width: 768px) {
+    .imagenes-certificados{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .box-certificados{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+}

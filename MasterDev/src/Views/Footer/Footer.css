@@ -34,3 +34,35 @@
 .logo-footer{
     width: auto;
 }
+
+@media (min-width: 380px) and (max-width: 767px) {
+    .Footer-style {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        background: #020202;
+    }
+
+    .growl {
+        padding: 3rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-footer {
+        margin-bottom: 12rem;
+    }
+
+    .title-footer {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    .h2 {
+        font-size: 1.2rem;
+    }
+}
