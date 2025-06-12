@@ -1,0 +1,36 @@
+.Footer-style{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    gap: 12px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.growl{
+    flex-grow: 1;
+    padding: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-footer{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.h2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #00eaff;
+    margin-bottom: 1rem;
+}
+
+.logo-footer{
+    width: auto;
+}

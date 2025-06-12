@@ -5,6 +5,7 @@ import About from './Views/About/About'
 import ToolsAndFramework from './Views/ToolsAndFreamwork/ToolsAndFreamwork'
 import Projects from './Views/Projects/Projects'
 import Certificados from './Views/Certificados/Certificados'
+import Footer from './Views/Footer/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <ToolsAndFramework />
     <Projects />
     <Certificados />
+    <Footer />
     </>
   )
 }

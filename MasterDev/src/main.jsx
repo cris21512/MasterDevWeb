@@ -40,5 +40,5 @@ createRoot(document.getElementById('root')).render(
     >
     </ReactLenis>
     </I18nextProvider>
-  </StrictMode>,
+  </StrictMode>
 )
