@@ -7,10 +7,12 @@ import Projects from './Views/Projects/Projects'
 import Certificados from './Views/Certificados/Certificados'
 import Footer from './Views/Footer/Footer'
 import Preloader from './Components/Preloader/Preloader'
+import CursorTrail from './Components/Cursor/CursorTrail'
 
 function App() {
   return (
     <>
+    <CursorTrail />
     <Preloader />
     <Header />
     <About />

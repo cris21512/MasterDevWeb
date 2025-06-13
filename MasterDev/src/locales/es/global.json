@@ -57,6 +57,16 @@
         "Projects": "Proyectos",
         "Contact": "Contacto"
     },
+    "Footer": {
+        "Social": "Redes Sociales",
+        "Contact": "Contacto",
+        "QuickLinks": "Enlaces Rápidos"
+    },
+    "Copy": {
+        "Title": "toca para copiar",
+        "Copy": "Copiado al portapapeles",
+        "Error": "Error al copiar al portapapeles"
+    },
     "Buttons": {
         "CV": "Descargar mi CV",
         "Github": "Mi Github",

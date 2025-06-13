@@ -9,9 +9,9 @@ const Footer = () => {
   const copiarAlPortapapeles = async () => {
     try {
       await navigator.clipboard.writeText('cristopherfm21.5@gmail.com');
-      alert('¡Correo copiado al portapapeles!');
+      alert(t("Copy.Copy"));
     } catch (err) {
-      console.error('Error al copiar: ', err);
+      console.error(t("Copy.Error"), err);
     }
   };
 
@@ -40,19 +40,19 @@ const Footer = () => {
                 <img src={logi} alt="devmaster" className="logo-footer" />
             </div>
             <div className="growl">
-                <h1 className="title-footer">social networks</h1>
+                <h1 className="title-footer">{t("Footer.Social")} </h1>
                 <span className="h2">• Instagram</span>
                 <span className="h2">• Linkedin</span>
                 <span className="h2">• TikTok</span>
             </div>
             <div className="growl">
-                <h1 className="title-footer">Contact</h1>
-                <span className="h2" onClick={copiarAlPortapapeles}>cristopherfm21.5@gmail.com <br />Click para copiar</span>
+                <h1 className="title-footer">{t("Footer.Contact")} </h1>
+                <span className="h2" onClick={copiarAlPortapapeles}>cristopherfm21.5@gmail.com <br />{t("Copy.Title")} </span>
                 <span className="h2">+502 3955 9554</span>
                 <span className="h2">• Facebook</span>
             </div>
             <div className="growl">
-                <h1 className="title-footer">Quick links</h1>
+                <h1 className="title-footer">{t("Footer.QuickLinks")} </h1>
                 <span className="h2">About</span>
                 <span className="h2">Projects</span>
                 <span className="h2">Technologies</span>
