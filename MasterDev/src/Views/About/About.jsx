@@ -2,7 +2,7 @@ import React,{ useEffect} from "react";
 import './About.css';
 import { useTranslation } from "react-i18next";
 import ProfileCard from '../../Components/ProfileCard/ProfileCard';
-import cris from '../../Assets/Images/Cris.png';
+import master from '../../Assets/Images/master.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -43,7 +43,7 @@ const About = () => {
                 handle="MasterDev"
                 status="Online"
                 contactText="Contact Me"
-                avatarUrl={cris}
+                avatarUrl={master}
                 grainUrl=''
                 showUserInfo={false}
                 enableTilt={true}
