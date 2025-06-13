@@ -1,18 +1,27 @@
-import React from "react";
+import React,{ useEffect} from "react";
 import './About.css';
 import { useTranslation } from "react-i18next";
 import ProfileCard from '../../Components/ProfileCard/ProfileCard';
 import Cris from '../../Assets/Images/Cris.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
     const [t, i18n] = useTranslation("global");
+
+    useEffect(() => {
+        AOS.init({
+        duration: 600,
+        once: true,
+        });
+    }, []);
 
     return(
         <section className="About-style">
             <section className="Center-about">
                 <div className="info-style">
-                    <h1 className="about-title">{t("About.Title")} </h1>
-                    <p>
+                    <h1 className="about-title" data-aos="fade-up">{t("About.Title")} </h1>
+                    <p data-aos="fade-up">
                         {t("About.Hi")}
                         <span>{t("About.span1")} </span>
                         {t("About.menext")}
@@ -28,19 +37,19 @@ const About = () => {
                         <span>💻{t("About.span3")}</span>
                     </p>
                 </div>
-                        <ProfileCard
-        name="Cristopher Fuentes"
-        title="Frontend Developer"
-        handle="MasterDev"
-        status="Online"
-        contactText="Contact Me"
-        avatarUrl={Cris}
-        grainUrl=''
-        showUserInfo={false}
-        enableTilt={true}
-        showBehindGradient={true}
-        className='text-card'
-        />
+                <ProfileCard
+                name="Cristopher Fuentes"
+                title="Frontend Developer"
+                handle="MasterDev"
+                status="Online"
+                contactText="Contact Me"
+                avatarUrl={Cris}
+                grainUrl=''
+                showUserInfo={false}
+                enableTilt={true}
+                showBehindGradient={true}
+                className='text-card'
+                />
             </section>
         </section>
     )

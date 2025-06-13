@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './Projects.css';
 import { useTranslation } from "react-i18next";
 import SpotlightCard from '../../Components/SpotlightCard/SpotlightCard';
@@ -8,14 +8,23 @@ import ChitoyCris from '../../assets/images/chitoycris.png';
 import CC from '../../assets/images/CC.png';
 import ViewAll from "../../Components/Buttons/ViewAll";
 import GithubButton from "../../Components/Buttons/GithubButton";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Projects = () => {
     const [t, i18n] = useTranslation("global");
 
+    useEffect(() => {
+        AOS.init({
+        duration: 600,
+        once: true,
+        });
+    }, []);
+
     return(
         <div className="Projects-style">
-            <h1 className="title-project">{t("Projects.Title")} </h1>
-            <section className="Center-projects">
+            <h1 className="title-project" data-aos="fade-up">{t("Projects.Title")} </h1>
+            <section className="Center-projects" data-aos="zoom-in">
                 <SpotlightCard className="box-style" spotlightColor="rgba(9, 180, 247, 0.62)">
                     <article>
                         <img src={WYKHomes} alt="WYKHomes" className="image-card" />
@@ -43,7 +52,7 @@ const Projects = () => {
                     </a>
                     </div>
                 </SpotlightCard>
-                <SpotlightCard className="box-style" spotlightColor="rgba(255, 255, 255, 0.73)">
+                <SpotlightCard className="box-style" spotlightColor="rgba(255, 255, 255, 0.73)" >
                     <article>
                         <img src={ChitoyCris} alt="WYKHomes" className="image-card" />
                         <img src={CC} alt="House" />
