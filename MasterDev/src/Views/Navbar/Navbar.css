@@ -35,11 +35,11 @@
 
 .master-logo{
   width: auto;
-  height: 120px;
+  height: 100px;
   justify-content: center;
   display: flex;
   align-items: center;
-  position: relative;
+  padding-top: 13px;
 }
 
 .logo-navbar{

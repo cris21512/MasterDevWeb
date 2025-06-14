@@ -3,6 +3,7 @@ import './ButtonsMedia.css'
 import github from '../../assets/icons/github.svg'
 import linkedin from '../../assets/icons/linkedin.svg'
 import gmail from '../../assets/icons/gmail.svg'
+import CVButton from './CVButton'
 
 function ButtonsMedia() {
     return (
@@ -31,6 +32,7 @@ function ButtonsMedia() {
                 <span className='BG'></span>
             </button>
             </a>
+            <CVButton />
         </div>
     );
 }

@@ -33,7 +33,7 @@ const Footer = () => {
                     friction={1}
                     wallBounce={0.95}
                     followCursor={false}
-                    colors={['#00eaff', '#fff', '#2196f3', '#FFDF00', '#FFDF00', '#D4AF37']}
+                    colors={['#373737', '#020202', '#00eaff', '#19191a', '#c9b977']}
                 />
             </div>
             <div className="growl">

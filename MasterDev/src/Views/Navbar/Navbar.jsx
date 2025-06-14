@@ -12,6 +12,7 @@ function Navbar() {
             <section className="content-nav">
                 <div className="space-nav">
                     <button  onClick={() => i18n.changeLanguage("es")} className="cursor-none"><span>ES</span></button>
+                    <span>|</span>
                     <button  onClick={() => i18n.changeLanguage("en")} className="cursor-none"><span>EN</span></button>
                 </div>
                 <img src={logo} alt="logoM" className="master-logo" />
