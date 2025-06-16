@@ -7,9 +7,11 @@ import 'lenis/dist/lenis.css'
 import App from './App.jsx'
 import { I18nextProvider } from 'react-i18next'
 import i18next from 'i18next'
+import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 import global_es from './locales/es/global.json'
 import global_en from './locales/en/global.json'
+import AboutPage from './Pages/About/AboutPage'
 
 
 
@@ -26,10 +28,14 @@ i18next.init({
   },
 })
 
-createRoot(document.getElementById('root')).render(
+const router = createBrowserRouter([
+  {path: '/', element: <App />},
+  {path: '/About', element: <AboutPage />}
+]);
+
+ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
     <I18nextProvider i18n={i18next}>
-      <App />
     <ReactLenis
       root
       options={{
@@ -39,6 +45,7 @@ createRoot(document.getElementById('root')).render(
       }}
     >
     </ReactLenis>
+    <RouterProvider router={router} />
     </I18nextProvider>
   </StrictMode>
 )

@@ -1,0 +1,9 @@
+.AboutPage-style{
+    width: 100%;
+    min-height: 100vh;
+    background: #020202;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

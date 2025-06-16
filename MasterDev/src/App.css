@@ -14,6 +14,11 @@ body{
   cursor: none;
 }
 
+a{
+  text-decoration: none;
+  cursor: none;
+}
+
 h1{
     font-family: 'Poppins', sans-serif;
     line-height: normal;
