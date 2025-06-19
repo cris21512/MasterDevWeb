@@ -32,3 +32,11 @@
     width: auto;
     height: 200px;
 }
+
+@media (max-width: 600px) {
+    .preloader .text-container{
+        flex-direction: column;
+        max-width: 200px;
+        height: 90px;
+    }
+}

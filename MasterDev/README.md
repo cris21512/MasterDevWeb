@@ -1,6 +1,6 @@
-# React + Vite
+# MasterDev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi!, this is my website, 
 
 Currently, two official plugins are available:
 

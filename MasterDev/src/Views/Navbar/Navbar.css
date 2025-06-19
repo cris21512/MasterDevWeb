@@ -17,7 +17,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: row;
   padding: 0 20px;
   box-sizing: border-box;

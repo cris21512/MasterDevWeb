@@ -16,11 +16,6 @@ function Navbar() {
                     <button  onClick={() => i18n.changeLanguage("en")} className="cursor-none"><span>EN</span></button>
                 </div>
                 <img src={logo} alt="logoM" className="master-logo" />
-                <div className="links-nav">
-                    <a href="/About"><ShinyText text={t("Navbar.About")} disabled={false} speed={3} className='custom-class' /></a>
-                    <ShinyText text={t("Navbar.Projects")} disabled={false} speed={3} className='custom-class' />
-                    <ShinyText text={t("Navbar.Contact")} disabled={false} speed={3} className='custom-class' />
-                </div>
             </section>
         </div>
     )
