@@ -51,12 +51,6 @@ const Footer = () => {
                 <span className="h2">+502 3955 9554</span>
                 <span className="h2">• Facebook</span>
             </div>
-            <div className="growl">
-                <h1 className="title-footer">{t("Footer.QuickLinks")} </h1>
-                <span className="h2">About</span>
-                <span className="h2">Projects</span>
-                <span className="h2">Technologies</span>
-            </div>
         </div>
     );
 }
