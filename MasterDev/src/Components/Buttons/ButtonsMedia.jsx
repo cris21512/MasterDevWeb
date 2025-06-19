@@ -8,6 +8,7 @@ import CVButton from './CVButton'
 function ButtonsMedia() {
     return (
         <div className='div-section'>
+            <CVButton />
             <a href="https://github.com/cris21512" target="_blank" rel="noopener noreferrer">
             <button className='Btn'>
                 <span className='svgContainer'>
@@ -32,7 +33,6 @@ function ButtonsMedia() {
                 <span className='BG'></span>
             </button>
             </a>
-            <CVButton />
         </div>
     );
 }
