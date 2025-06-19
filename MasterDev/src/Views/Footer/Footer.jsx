@@ -41,15 +41,15 @@ const Footer = () => {
             </div>
             <div className="growl">
                 <h1 className="title-footer">{t("Footer.Social")} </h1>
-                <span className="h2">• Instagram</span>
-                <span className="h2">• Linkedin</span>
-                <span className="h2">• TikTok</span>
+                <a href="https://www.instagram.com/master._dev/" target='_blank' rel='noopener noreferrer'><span className="h2">• Instagram</span></a>
+                <a href="https://www.linkedin.com/in/cristopherfuentes/" target="_blank" rel="noopener noreferrer"><span className="h2">• Linkedin</span></a>
+                <a href="https://www.tiktok.com/@masterdev00" target="_blank" rel="noopener noreferrer"><span className="h2">• TikTok</span></a>
             </div>
             <div className="growl">
                 <h1 className="title-footer">{t("Footer.Contact")} </h1>
                 <span className="h2" onClick={copiarAlPortapapeles}>cristopherfm21.5@gmail.com <br />{t("Copy.Title")} </span>
                 <span className="h2">+502 3955 9554</span>
-                <span className="h2">• Facebook</span>
+                <a href="https://www.facebook.com/share/1EG6F9GGUo/" target="_blank" rel="noopener noreferrer"><span className="h2">• Facebook</span></a>
             </div>
         </div>
     );
