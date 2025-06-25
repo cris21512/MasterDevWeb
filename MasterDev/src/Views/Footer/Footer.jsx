@@ -15,6 +15,15 @@ const Footer = () => {
     }
   };
 
+  const copiarNumero = async () =>{
+    try{
+        await navigator.clipboard.writeText('3955 9554');
+        alert(t("Copy.Copy"));
+    } catch (err) {
+        console.error(t("Copy.Error"), err);
+    }
+  }
+
     return (
         <div className="Footer-style">
             <div
@@ -48,7 +57,7 @@ const Footer = () => {
             <div className="growl">
                 <h1 className="title-footer">{t("Footer.Contact")} </h1>
                 <span className="h2" onClick={copiarAlPortapapeles}>cristopherfm21.5@gmail.com <br />{t("Copy.Title")} </span>
-                <span className="h2">+502 3955 9554</span>
+                <span className="h2" onClick={copiarNumero}>+502 3955 9554</span>
                 <a href="https://www.facebook.com/share/1EG6F9GGUo/" target="_blank" rel="noopener noreferrer"><span className="h2">• Facebook</span></a>
             </div>
         </div>
