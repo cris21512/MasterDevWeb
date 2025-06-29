@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import './Projects.css';
 import { useTranslation } from "react-i18next";
 import SpotlightCard from '../../Components/SpotlightCard/SpotlightCard';
-import WYKHomes from '../../assets/images/house.png';
+import WYKHomes from '../../assets/images/house.webp';
 import house from '../../assets/images/house-child.png';
 import ChitoyCris from '../../assets/images/chitoycris.png';
 import CC from '../../assets/images/CC.png';

@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import "./Footer.css";
 import Ballpit from '../../Backgrounds/Ballpit/Ballpit';
-import logi from '../../assets/images/logo.png';
+import logi from '../../assets/images/logo.webp';
 
 const Footer = () => {
     const [t, i18n] = useTranslation("global");

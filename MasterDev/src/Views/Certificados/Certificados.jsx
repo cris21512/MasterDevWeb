@@ -1,8 +1,8 @@
 import React, {useEffect} from "react";
 import { useTranslation } from "react-i18next";
 import "./Certificados.css";
-import CertiJS from '../../assets/images/certif_1.png';
-import CertiPY from '../../assets/images/certif_2.png';
+import CertiJS from '../../assets/images/certif_1.webp';
+import CertiPY from '../../assets/images/certif_2.webp';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

@@ -2,7 +2,7 @@ import React,{ useEffect} from "react";
 import './About.css';
 import { useTranslation } from "react-i18next";
 import ProfileCard from '../../Components/ProfileCard/ProfileCard';
-import master from '../../assets/images/master.png';
+import master from '../../assets/images/master.webp';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

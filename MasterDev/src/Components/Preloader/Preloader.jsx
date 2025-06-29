@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Preloader.css'
 import preLoaderAnim from './animation'
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/logo.webp'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
