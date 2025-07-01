@@ -1,8 +1,12 @@
 import React,{ useEffect} from "react";
 import './About.css';
+
 import { useTranslation } from "react-i18next";
+
 import ProfileCard from '../../Components/ProfileCard/ProfileCard';
+import Copy from "../../Components/Copy/Copy";
 import master from '../../assets/images/master.webp';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -21,7 +25,8 @@ const About = () => {
             <section className="Center-about">
                 <div className="info-style">
                     <h1 className="about-title" data-aos="fade-up">{t("About.Title")} </h1>
-                    <p data-aos="fade-up">
+                    <Copy>
+                    <p>
                         {t("About.Hi")}
                         <span>{t("About.span1")} </span>
                         {t("About.menext")}
@@ -36,6 +41,7 @@ const About = () => {
                         {t("About.menext3")}
                         <span>💻{t("About.span3")}</span>
                     </p>
+                    </Copy>
                 </div>
                 <ProfileCard
                 name="Cristopher Fuentes"
