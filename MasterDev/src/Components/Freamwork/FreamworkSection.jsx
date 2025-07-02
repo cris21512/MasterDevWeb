@@ -8,13 +8,13 @@ import HTML from '../../assets/icons/html5.svg';
 import CSS from '../../assets/icons/css.svg';
 import TypeScript from '../../assets/icons/typescript.svg';
 import Github from '../../assets/icons/github.svg';
-import REFLEX from '../../assets/icons/reflex.svg';
+import Next from '../../assets/icons/nextjs.svg';
 import Git from '../../assets/icons/git.svg';
 import Docker from '../../assets/icons/docker.svg';
 import VSCode from '../../assets/icons/vscode.svg';
 import Figma from '../../assets/icons/figma.svg';
 import Canva from '../../assets/icons/canva.svg';
-import taiwild from '../../assets/icons/tailwindcss.svg'
+import taiwild from '../../assets/icons/tailwindcss.svg';
 
 const frameworks = [
     {name: '', logo: '', color: 'rgba(255, 255, 255, 0.03)', url: ''},
@@ -38,7 +38,7 @@ const frameworks = [
     {name: 'TypeScript', logo: TypeScript, color: 'rgba(255, 255, 255, 0.03)', url: ''},
     {name: 'Github', logo: Github, color: 'rgba(255, 255, 255, 0.03)', url: ''},
     {name: 'Git', logo: Git, color: 'rgba(255, 255, 255, 0.03)', url: ''},
-    {name: 'REFLEX', logo: REFLEX, color: 'rgba(255, 255, 255, 0.03)', url: ''},
+    {name: 'REFLEX', logo: Next, color: 'rgba(255, 255, 255, 0.03)', url: ''},
     {name: 'Docker', logo: Docker, color: 'rgba(255, 255, 255, 0.03)', url: ''},
     {name: '', logo: '', color: 'rgba(255, 255, 255, 0.03)', url: ''},
     {name: '', logo: '', color: 'rgba(255, 255, 255, 0.03)', url: ''},

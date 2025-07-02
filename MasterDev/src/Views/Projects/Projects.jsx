@@ -1,13 +1,18 @@
 import React, {useEffect} from "react";
 import './Projects.css';
+
 import { useTranslation } from "react-i18next";
+
 import SpotlightCard from '../../Components/SpotlightCard/SpotlightCard';
+
 import WYKHomes from '../../assets/images/house.webp';
 import house from '../../assets/images/house-child.png';
-import ChitoyCris from '../../assets/images/chitoycris.png';
-import CC from '../../assets/images/CC.png';
+import Crazydev from '../../assets/images/crazydev.webp';
+import CD from '../../assets/images/logo_light.png';
 import ViewAll from "../../Components/Buttons/ViewAll";
+
 import GithubButton from "../../Components/Buttons/GithubButton";
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -54,10 +59,10 @@ const Projects = () => {
                 </SpotlightCard>
                 <SpotlightCard className="box-style" spotlightColor="rgba(255, 255, 255, 0.73)" >
                     <article>
-                        <img src={ChitoyCris} alt="WYKHomes" className="image-card" />
-                        <img src={CC} alt="House" />
+                        <img src={Crazydev} alt="WYKHomes" className="image-card" />
+                        <img src={CD} alt="House" />
                     </article>
-                    <h1 className="title-card-project">Chito & Cris</h1>
+                    <h1 className="title-card-project">Crazydev</h1>
                     <p className="text-project">
                         <span>{t("Projects.Description")}</span> <br />
                         {t("Cardinfo.Cardinfo1")}
@@ -72,8 +77,8 @@ const Projects = () => {
                         <span>{t("Roleinfo.Spanrole2")}</span>.
                     </p>
                     <div className="buttons-project">
-                        <a href="https://chito-y-cris.vercel.app/" target='_blank' rel='noopener noreferrer'> <ViewAll/></a>
-                        <a href="https://github.com/cris21512/Chito-Y-Cris" target='_blank' rel='noopener noreferrer' ><GithubButton />
+                        <a href="https://crazydev-three.vercel.app/" target='_blank' rel='noopener noreferrer'> <ViewAll/></a>
+                        <a href="https://github.com/cris21512/Crazydev" target='_blank' rel='noopener noreferrer' ><GithubButton />
                     </a>
                     </div>
                 </SpotlightCard>
