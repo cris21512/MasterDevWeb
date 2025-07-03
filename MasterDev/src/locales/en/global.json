@@ -36,12 +36,22 @@
         "Spanrole1": " (frontend, backend, UX, and design)",
         "Spanrole2": " functional and visually appealing solution"
     },
-    "Cardinfo": {
-        "Cardinfo1": "I developed a modern website for a pair of ",
-        "spancard1": " TikTok content creators",
-        "Cardinfo2": " focused on food and recipes. Their goal was to ",
-        "spancard2": " showcase their cooking",
-        "Cardinfo3": ", increase engagement, and make it easier for followers to get in touch."
+    "Crazydev": {
+        "span1": "Crazydev Studio ",
+        "Info1": "is a site that reflectsmy approach to ",
+        "span2": "modern web development ",
+        "and": "and a ",
+        "span3": "clear user experience",
+        "Info2": "It was crafted as an elegant presentation card, width a clean structure, ",
+        "span4": "smooth interactions ",
+        "Info3": "and a strong focus on ",
+        "span5": "visual aesthetics. ",
+        "Info4": "It stands out for its ",
+        "span6": "intuitive navigation, responsive design, use of readable typography, " ,
+        "span7": "sober professional color palette ",
+        "Info5": "In the project section, each work is showcased with attention to the",
+        "span8": " visual and fuctional",
+        "Info6": " aspects, reinforcing the idea that code can also be art."
     },
     "Roleinfo": {
         "Roleinfo1": "I was in charge of building the entire frontend, based on the design they provided. I also implemented part of the backend, creating a functional, ",

@@ -65,16 +65,21 @@ const Projects = () => {
                     <h1 className="title-card-project">Crazydev</h1>
                     <p className="text-project">
                         <span>{t("Projects.Description")}</span> <br />
-                        {t("Cardinfo.Cardinfo1")}
-                        <span>{t("Cardinfo.spancard1")} </span>
-                        {t("Cardinfo.Cardinfo2")}
-                        <span>{t("Cardinfo.spancard2")}</span>
-                        {t("Cardinfo.Cardinfo3")} <br />
-                        <span>{t("Projects.Rol")} </span> <br />
-                        {t("Roleinfo.Roleinfo1")}
-                        <span>{t("Roleinfo.Spanrole1")}</span>
-                        {t("Roleinfo.Roleinfo2")}
-                        <span>{t("Roleinfo.Spanrole2")}</span>.
+                        <span>{t("Crazydev.span1")}</span>
+                        {t("Crazydev.Info1")}
+                        <span>{t("Crazydev.span2")}</span>
+                        {t("Crazydev.and")}
+                        <span>{t("Crazydev.span3")} </span>
+                        {t("Crazydev.Info2")}
+                        <span>{t("Crazydev.span4")}</span>
+                        {t("Crazydev.Info3")}
+                        <span>{t("Crazydev.span5")}</span>
+                        {t("Crazydev.Info4")} 
+                        <span>{t("Crazydev.span6")}</span>
+                        <span>{t("Crazydev.span7")}</span>
+                        {t("Crazydev.Info5")} 
+                        <span>{t("Crazydev.span8")}</span>
+                        {t("Crazydev.Info6")}
                     </p>
                     <div className="buttons-project">
                         <a href="https://crazydev-three.vercel.app/" target='_blank' rel='noopener noreferrer'> <ViewAll/></a>
