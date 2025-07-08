@@ -25,7 +25,6 @@ const About = () => {
             <section className="Center-about">
                 <div className="info-style">
                     <h1 className="about-title" data-aos="fade-up">{t("About.Title")} </h1>
-                    <Copy>
                     <p>
                         {t("About.Hi")}
                         <span>{t("About.span1")} </span>
@@ -41,7 +40,6 @@ const About = () => {
                         {t("About.menext3")}
                         <span>💻{t("About.span3")}</span>
                     </p>
-                    </Copy>
                 </div>
                 <ProfileCard
                 name="Cristopher Fuentes"
@@ -51,7 +49,7 @@ const About = () => {
                 contactText="Contact Me"
                 avatarUrl={master}
                 grainUrl=''
-                showUserInfo={false}
+                showUserInfo={true}
                 enableTilt={true}
                 showBehindGradient={true}
                 className='text-card'
