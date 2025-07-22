@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next'
-import CV from '../../assets/CristopherFu_CV.pdf'
+import CV from '../../assets/CristopherMD_CV.pdf'
 import file from '../../assets/icons/file.svg'
 import './CVButtons.css'
 
@@ -9,7 +9,7 @@ export default function CVButton() {
 
     return(
         <div className="tooltip-container">
-            <a href={CV} target="_blank" download="CristopherFu_CV.pdf">
+            <a href={CV} target="_blank" download="CristopherMD_CV.pdf">
                 <button className="tooltip-trigger"><img src={file} alt="CV" /></button>
                 <div className="tooltip">{t("Buttons.CV")} </div>
             </a>

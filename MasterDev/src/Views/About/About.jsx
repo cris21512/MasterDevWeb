@@ -4,7 +4,6 @@ import './About.css';
 import { useTranslation } from "react-i18next";
 
 import ProfileCard from '../../Components/ProfileCard/ProfileCard';
-import Copy from "../../Components/Copy/Copy";
 import master from '../../assets/images/master.webp';
 
 import AOS from 'aos';
