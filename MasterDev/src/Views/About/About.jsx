@@ -33,9 +33,9 @@ const About = () => {
                         <span>{t("About.span2")}</span>
                         {t("About.includ")}
                         <ul>
-                            <span><li>• {t("About.ul1")}</li></span>
-                            <span><li>• {t("About.ul2")}</li></span>
-                            <span><li>• {t("About.ul3")}</li></span>
+                            <span><li>• Crazydev</li></span>
+                            <span><li>• WYK Homes</li></span>
+                            <span><li>• Otis-Valen</li></span>
                         </ul>
                         {t("About.menext3")}
                         <span>💻{t("About.span3")}</span>
