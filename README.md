@@ -82,9 +82,9 @@ Yes, I’m that dev pushing portfolio updates at 11:47 PM on a Sunday.
 
 If something caught your eye or sparked a collab idea, hit me up:
 
-- Email: [youremail@example.com]  
-- LinkedIn: [linkedin.com/in/yourhandle](https://linkedin.com/in/yourhandle)  
-- Instagram: [@yourhandle](https://instagram.com/yourhandle)
+- Email: [masterkingdev215@gmail.com]
+- LinkedIn: [linkedin.com/in/cristopherfuentes/](https://www.linkedin.com/in/cristopherfuentes/)  
+- Instagram: [@master._dev](https://www.instagram.com/master._dev/)
 
 ---
 
