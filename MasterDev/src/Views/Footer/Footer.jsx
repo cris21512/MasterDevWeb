@@ -1,7 +1,10 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+
 import "./Footer.css";
-import Ballpit from '../../Backgrounds/Ballpit/Ballpit';
+
+import Galaxy from '../../Backgrounds/Galaxy/Galaxy';
+
 import logi from '../../assets/images/logo.webp';
 
 const Footer = () => {
@@ -26,25 +29,17 @@ const Footer = () => {
 
     return (
         <div className="Footer-style">
-            <div
-                style={{
-                    width: '100%',
-                    height: '100vh',
-                    position: 'absolute',
-                    overflow: 'hidden',
-                    zIndex: -1,
-                    backgroundColor: '#020202',
-                }}
-            >
-                <Ballpit
-                    count={110}
-                    gravity={0.5}
-                    friction={1}
-                    wallBounce={0.95}
-                    followCursor={false}
-                    colors={['#373737', '#020202', '#00eaff', '#19191a', '#c9b977']}
-                />
-            </div>
+
+<div style={{ width: '100%', height: '100vh', position: 'absolute', overflow: 'hidden', zIndex: -1, backgroundColor: "#020202" }}>
+  <Galaxy 
+    mouseRepulsion={true}
+    mouseInteraction={true}
+    density={1.5}
+    glowIntensity={0.5}
+    saturation={0.8}
+    hueShift={240}
+  />
+</div>
             <div className="growl">
                 <img src={logi} alt="devmaster" className="logo-footer" />
             </div>
