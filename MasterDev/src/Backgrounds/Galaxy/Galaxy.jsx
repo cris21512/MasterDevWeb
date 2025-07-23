@@ -165,9 +165,9 @@ void main() {
 
   if (uTransparent) {
     float alpha = length(col);
-    alpha = smoothstep(0.0, 0.3, alpha); // Enhance contrast
+    alpha = smoothstep(0.0, 0.9, alpha); // Enhance contrast
     alpha = min(alpha, 1.0); // Clamp to maximum 1.0
-    gl_FragColor = vec4(col, alpha);
+    gl_FragColor = vec4(col, alpha); 
   } else {
     gl_FragColor = vec4(col, 1.0);
   }
