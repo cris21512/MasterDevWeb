@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 
 import Navbar from './Views/Navbar/Navbar';
-import Header from './Views/Header/Header';
 import About from './Views/About/About';
 import ToolsAndFramework from './Views/ToolsAndFreamwork/ToolsAndFreamwork';
 import Projects from './Views/Projects/Projects';
@@ -16,7 +15,7 @@ function App() {
     <>
     <Navbar />
     <CursorTrail />
-    
+    <Preloader />
     <About />
     <ToolsAndFramework />
     <Projects />
